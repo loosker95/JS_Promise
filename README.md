@@ -1,5 +1,5 @@
     
-# Promise in Javascript exercise
+# Promise in Javascript exercises
 
 ## 1.	
 	Use Promise.resolve(value) to create a promise that will resolve with the value 3.
