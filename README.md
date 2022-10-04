@@ -1,5 +1,5 @@
     
-#Promise in Javascript exercise
+# Promise in Javascript exercise
 
 ## 1.	
 	Use Promise.resolve(value) to create a promise that will resolve with the value 3.
@@ -26,7 +26,8 @@
 	/* console.log here*/
 
 ## 4.	
-	You going to create a promise representing ordering sunglasses from an online store. First, create the function, myExecutor(). 
+	You going to create a promise representing ordering sunglasses from an online store. 
+	First, create the function, myExecutor(). 
 	Later on, you’ll pass this function into the Promise constructor.
 	myExecutor() should:
 	-	Have two parameters: resolve and reject
