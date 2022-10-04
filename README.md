@@ -1,5 +1,5 @@
     
-##Promise in Javascript exercise
+#Promise in Javascript exercise
 
 ## 1.	
 	Use Promise.resolve(value) to create a promise that will resolve with the value 3.
@@ -25,7 +25,7 @@
 	}
 	/* console.log here*/
 
-##4.	
+## 4.	
 	You going to create a promise representing ordering sunglasses from an online store. First, create the function, myExecutor(). 
 	Later on, you’ll pass this function into the Promise constructor.
 	myExecutor() should:
@@ -61,7 +61,7 @@
 	controlAllPromises(arrayOfPromises);
 	
 
-##6.	
+## 6.	
 	Sometimes you will want to make multiple requests in parallel but handle errors individually. 
 	Promise.all will reject if any of the promises rejects, so we need a way to handle individual errors.
 	Write a function called requestAllFilesHandleErrors that takes an array of promises  and returns 
