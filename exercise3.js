@@ -1,4 +1,4 @@
-function makePromiseWithConstructor(itShouldResolve){
+function makePromiseWithConstructor(itShouldResolve) {
     return myExecutor = ((resolve, reject) =>{
         if(itShouldResolve === true){
             resolve('itShouldResolve is truthy');
@@ -11,7 +11,7 @@ function makePromiseWithConstructor(itShouldResolve){
 
 const myMessage = new Promise (makePromiseWithConstructor(true))
 
-myMessage.then((message) =>{
+myMessage.then((message) => {
     console.log(message);
 }).catch((message) =>{
     console.log(message);

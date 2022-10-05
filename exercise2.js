@@ -1,4 +1,4 @@
-function makePromiseRejectWithBoo(){
+function makePromiseRejectWithBoo() {
     return Promise.reject("Boo!");
 };
 

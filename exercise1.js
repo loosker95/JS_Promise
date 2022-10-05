@@ -1,4 +1,4 @@
-function makePromiseResolveWith3(value){
+function makePromiseResolveWith3(value) {
     return Promise.resolve(value);
 };
     
